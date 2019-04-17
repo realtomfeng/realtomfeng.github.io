@@ -1,0 +1,100 @@
+#intro {
+  background-image: url("../images/nyc.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.intro-span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+#first-intro {
+  padding-top: 20%;
+  font-size: 250%;
+  color: white;
+}
+
+#second-intro {
+  font-size: 250%;
+  color: white;
+}
+
+.custom-nav {
+  float: right !important;
+}
+
+.homepage-buttons {
+  font-size: 125%;
+  color: white;
+  display: inline-block;
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  margin-top: 5%;
+
+}
+
+
+
+.homepage-buttons:hover {
+  background-color: white;
+  text-decoration: none !important;
+  color: black;
+}
+
+.homepage-buttons:visited {
+  text-decoration: none !important;
+}
+
+.page-header {
+  width: 100%;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  display: inline-block;
+  font-size: 300%;
+  padding-bottom: 4%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+nav {
+  position: fixed !important;  
+  width: 100%;
+  z-index: 200;
+}
+
+nav a {
+  color: white !important;
+}
+nav div ul li a {
+  color: white !important;
+}
+
+.navbar { 
+  background: rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 768px) {
+
+#first-intro {padding-top: 37%; font-size: 100%;}
+#second-intro {font-size: 100%; }
+.homepage-buttons {font-size: 75%;  }
+}
+
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:80px; /* fixed header height*/
+}

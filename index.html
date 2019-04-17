@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tom Feng</title>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <script src="https://use.fontawesome.com/dd535f44f9.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/about_me.css">
+  <link rel="stylesheet" type="text/css" href="css/homepage.css">
+  <link rel="stylesheet" type="text/css" href="css/work.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <script src="js/smooth_scrolling.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand scroll-link" href="#intro">Tom Feng</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link scroll-link" href="#about-me">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scroll-link" href="#work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scroll-link" href="https://500px.com/realtomfeng">Photography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scroll-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="intro" class="jumptarget">
+    <div class="white-text">
+      <span class="intro-span">
+        <p id="first-intro">
+          I'm Tom Feng, iOS Developer.
+        </p>
+        <p id="second-intro">
+          Let's build something great together.
+        </p>
+        <p class="fadeinUp">
+          <a href="#about-me" class="homepage-buttons scroll-link">About Me</a>
+        </p>
+      </span>
+    </div>
+  </div>
+  <div id="about-me" class="white-text jumptarget" data-stellar-background-ratio="0.5">
+    <div class="row">
+      <div class="col-3 profile-photo-div">
+        <img src="images/profile.jpg" class="profile-photo">
+      </div>
+      <div class="col-9 about-text-div">
+        <p class="text-container">
+          &nbsp;  Hi! I'm Tom. I like good design and creative content. I am a full stack web developer/pancake eater. Design and function is at the core of who I am and what I want to do. I like aesthetics that have elegant functionality.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="work" class="jumptarget">
+    <div class="page-header work-header">
+      Projects
+    </div>
+    <div class="row work-row">
+      <div class="col work-box">
+        <a href="https://www.facebook.com/TheNewsChatbot/" class="work-link">
+          <div class="grid">
+            <figure class="effect-sarah">
+              <img src="images/newschatbot.jpg" alt="" class="work-image"/>
+              <figcaption>
+                <h2>News<span>Chatbot</span></h2>
+                <p>Designed to circumvent censorship by providing an alternative source for news. This project utilizes News API and Pubnub to deliver live news to users with a chatbot.</p>
+                <p>Technologies: Javascript</p>
+              </figcaption>
+            </figure>
+          </div>
+        </a>
+      </div>
+      <div class="col work-box">
+        <a href="https://tutor-skill.herokuapp.com/" class="work-link">
+          <div class="grid">
+            <figure class="effect-sarah">
+              <img src="images/skill-up.jpg" alt="" class="work-image"/>
+              <figcaption>
+                <h2>Skill<span>Up</span></h2>
+                <p>Connect and start learning. This project is a Rails application for exchanging skills with other usersand utilizes ajax to dynamically update page with new content.</p>
+                <p>Technologies: Rails, Javascript, JQuery, Ajax, SQL, ActiveRecord, bcrypt</p>
+              </figcaption>
+            </figure>
+          </div>
+        </a>
+      </div>
+      <div class="col work-box">
+        <a href="https://yelpqs.herokuapp.com" class="work-link">
+          <div class="grid">
+            <figure class="effect-sarah">
+              <img src="images/yelp-qs.jpg" alt="" class="work-image"/>
+              <figcaption>
+                <h2>Yelp<span>QS</span></h2>
+                <p>Search for Food Quickly. This project utilizes the Yelp Fusion API to deliver live business information to users.</p>
+                <p>Technologies: Sinatra, Javascript, JQuery, Ajax, SQL, ActiveRecord, Ruby, Heroku</p>
+              </figcaption>
+            </figure>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="jumptarget">
+    <div class="page-header">
+      Contact
+    </div>
+    <div class="row">
+    <div class="col-4 contact-image">
+      <a href="mailto:realtomfeng@gmail.com?Subject=Let's%20build%20something%20together">
+        <img src="images/email.png"/>
+        <p>Email</p>
+      </a>
+    </div>
+    <div class="col-4 contact-image">
+      <a href="https://www.linkedin.com/in/iosdevelopr/">
+        <img src="images/linkedin.png"/>
+        <p>Linkedin</p>
+      </a>
+    </div>
+    <div class="col-4 contact-image">
+      <a href="https://www.instagram.com/champagnegrandpapy/">
+        <img src="images/instagram.png"/>
+        <p>Instagram</p>
+      </a>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
