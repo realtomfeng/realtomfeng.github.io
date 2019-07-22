@@ -754,6 +754,10 @@ td, th {
   top: 0;
   bottom: 0; }
 
+.shot-item {
+  border-radius: 25px
+}
+
 .sample-text-area {
   background: #fff;
   padding: 100px 0 70px 0; }
